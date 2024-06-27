@@ -1,0 +1,90 @@
+$ Begin TBmakelogparser Information
+
+$ test.exe.btf
+$ 3 source files
+$ 
+$ Command Used:
+$ =============
+$
+$ Command  : tbmakelogparser C:\project\codeImpact_analysis\build_log.txt -t C:\Users\Ehsan\AppData\Local\Temp\tbmakelogparser_btf_list.txt -p C:\Users\Ehsan\AppData\Local\Temp\tbmakelogparser_ptf_list.txt -f C:\_ldra_toolsuite\1021_final\Compiler_spec\MinGW\Mingw_tbmakelogparser.dat -b build.bat -d C:\project\codeImpact_analysis
+$ Start-In : C:\project\codeImpact_analysis
+$
+$ BTF Macros Used:
+$ ================
+$
+$ $(Compiler) - gcc
+$ $(Source) - source file under test
+$
+$ BTF generated from the following log entries:
+$ =============================================
+$
+$ gcc.exe
+$ C:\project\codeImpact_analysis\
+$ "gcc" ".\addition.c" ".\subtraction.c" ".\main.c" "-I." "-o" "test.exe" 
+$
+$ End TBmakelogparser Information
+
+ # Begin Testbed Set
+
+   SET_TYPE = SYSTEM
+   SET_NAME = test.exe
+$  BUILD_TARGET = test.exe
+   TARGET_TYPE = Application
+   GENERATED_BY = TBMakeLogParser
+
+   # Begin Source Files
+
+     File = C:\project\codeImpact_analysis\addition.c
+     RelativeFile = .\addition.c
+     File = C:\project\codeImpact_analysis\subtraction.c
+     RelativeFile = .\subtraction.c
+     File = C:\project\codeImpact_analysis\main.c
+     RelativeFile = .\main.c
+
+   # End Source Files
+
+   # Begin Sysearch Include File Entries
+
+     SearchPath = C:\project\codeImpact_analysis
+     SearchPath_4 = C:\MinGW\include
+     SearchPath_4 = C:\MinGW\lib\gcc-lib\mingw32\3.2\include
+     SearchPath_4 = C:\MinGW\include\c++\3.2
+     SearchPath_4 = C:\MinGW\include\c++\3.2\mingw32
+     SearchPath_4 = C:\MinGW\include\c++\3.2\backward
+
+   # End Sysearch Include File Entries
+
+   # Begin Sysppvar Preprocessor Macros
+
+
+   # End Sysppvar Preprocessor Macros
+
+   # Begin Options
+
+     compiler_compilation_flag = -c
+     compiler_include_path_flag = -I
+     compiler_preprocess_flag = -E
+     exe_append = .exe
+     exe_dir = C:\project\codeImpact_analysis
+     exe_name = test
+     gensysppvar_run = F
+     nb_build_command = build.bat
+     nb_mechanism = build
+     nb_start_in_dir = C:\project\codeImpact_analysis
+     nb_substitute_source = T
+     tbbuildimport_data_zip = C:\Users\Ehsan\AppData\Local\Temp\tbbuildimport_10.2.1_270624_015824\tbbuildimport_10.2.1_270624_015824.zip
+
+   # End Options
+
+   # Begin Build Commands
+
+$    BuildCommand = gcc .\addition.c .\subtraction.c .\main.c -I. -o test.exe
+     BuildCommand = gcc .\addition.c .\subtraction.c .\main.c -I. -o test.exe
+     BuildCommandStartIn = C:\project\codeImpact_analysis
+     GenSysppvarCommand = gcc -E -x c $(SysppvarMacrofileQuote) -I.
+     GenSysppvarCommandStartIn = C:\project\codeImpact_analysis
+
+   # End Build Commands
+
+ # End Testbed Set
+

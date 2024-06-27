@@ -1,0 +1,1 @@
+gcc .\addition.c .\subtraction.c .\main.c -I. -o test.exe
