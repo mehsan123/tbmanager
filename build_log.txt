@@ -1,4 +1,4 @@
-Child of 34356;33864
+Child of 6732;39880
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -11,7 +11,7 @@ Child of 34356;33864
 	"C:\_ldra_toolsuite\1021_final\tbbuildlogger.exe" "build.bat" 
 #
 #
-Child of 33864;22568
+Child of 39880;19384
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -24,7 +24,7 @@ Child of 33864;22568
 	"\??\C:\Windows\system32\conhost.exe" "0x4" 
 #
 #
-Child of 33864;11664
+Child of 39880;1808
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -37,7 +37,7 @@ Child of 33864;11664
 	"C:\Windows\system32\cmd.exe" "/c" "build.bat" 
 #
 #
-Child of 11664;11120
+Child of 1808;37072
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -50,7 +50,7 @@ Child of 11664;11120
 	"gcc" ".\addition.c" ".\subtraction.c" ".\main.c" "-I." "-o" "test.exe" 
 #
 #
-Child of 11120;24220
+Child of 37072;40388
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -60,10 +60,10 @@ Child of 11120;24220
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	cc1.exe
 	C:\project\codeImpact_analysis\
-	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\cc1.exe" "-lang-c" "-I." "-iprefix" "C:\MinGW\BIN/../lib/gcc-lib/mingw32/3.2/" "-D__GNUC__=3" "-D__GNUC_MINOR__=2" "-D__GNUC_PATCHLEVEL__=0" "-D__GXX_ABI_VERSION=102" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-DWIN32" "-D__MINGW32__" "-D__MSVCRT__" "-DWINNT" "-D_X86_=1" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-D__WIN32__" "-D__MINGW32__" "-D__MSVCRT__" "-D__WINNT__" "-D_X86_=1" "-D__WIN32" "-D__WINNT" "-Asystem=winnt" "-D__NO_INLINE__" "-D__STDC_HOSTED__=1" "-Acpu=i386" "-Amachine=i386" "-Di386" "-D__i386" "-D__i386__" "-D__tune_i586__" "-D__tune_pentium__" "-D__stdcall=__attribute__((__stdcall__))" "-D__cdecl=__attribute__((__cdecl__))" "-D__fastcall=__attribute__((__fastcall__))" "-D_stdcall=__attribute__((__stdcall__))" "-D_cdecl=__attribute__((__cdecl__))" "-D_fastcall=__attribute__((__fastcall__))" "-D__declspec(x)=__attribute__((x))" ".\addition.c" "-quiet" "-dumpbase" "addition.c" "-o" "C:\Users\Ehsan\AppData\Local\Temp/ccw3caaa.s" 
+	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\cc1.exe" "-lang-c" "-I." "-iprefix" "C:\MinGW\BIN/../lib/gcc-lib/mingw32/3.2/" "-D__GNUC__=3" "-D__GNUC_MINOR__=2" "-D__GNUC_PATCHLEVEL__=0" "-D__GXX_ABI_VERSION=102" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-DWIN32" "-D__MINGW32__" "-D__MSVCRT__" "-DWINNT" "-D_X86_=1" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-D__WIN32__" "-D__MINGW32__" "-D__MSVCRT__" "-D__WINNT__" "-D_X86_=1" "-D__WIN32" "-D__WINNT" "-Asystem=winnt" "-D__NO_INLINE__" "-D__STDC_HOSTED__=1" "-Acpu=i386" "-Amachine=i386" "-Di386" "-D__i386" "-D__i386__" "-D__tune_i586__" "-D__tune_pentium__" "-D__stdcall=__attribute__((__stdcall__))" "-D__cdecl=__attribute__((__cdecl__))" "-D__fastcall=__attribute__((__fastcall__))" "-D_stdcall=__attribute__((__stdcall__))" "-D_cdecl=__attribute__((__cdecl__))" "-D_fastcall=__attribute__((__fastcall__))" "-D__declspec(x)=__attribute__((x))" ".\addition.c" "-quiet" "-dumpbase" "addition.c" "-o" "C:\Users\Ehsan\AppData\Local\Temp/cc6Njaaa.s" 
 #
 #
-Child of 11120;11244
+Child of 37072;2240
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -73,23 +73,10 @@ Child of 11120;11244
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	as.exe
 	C:\project\codeImpact_analysis\
-	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\..\..\..\..\mingw32\bin\as.exe" "-o" "C:\Users\Ehsan\AppData\Local\Temp/ccSWfaaa.o" "C:\Users\Ehsan\AppData\Local\Temp/ccw3caaa.s" 
+	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\..\..\..\..\mingw32\bin\as.exe" "-o" "C:\Users\Ehsan\AppData\Local\Temp/cc2rtaaa.o" "C:\Users\Ehsan\AppData\Local\Temp/cc6Njaaa.s" 
 #
 #
-Child of 11120;34636
-	ENVINI:INCLUDE=C:\MinGW\include
-	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
-	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
-	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2\mingw32
-	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2\backward
-	ENVINI:INCLUDE=C:\MinGW\include
-	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
-	cc1.exe
-	C:\project\codeImpact_analysis\
-	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\cc1.exe" "-lang-c" "-I." "-iprefix" "C:\MinGW\BIN/../lib/gcc-lib/mingw32/3.2/" "-D__GNUC__=3" "-D__GNUC_MINOR__=2" "-D__GNUC_PATCHLEVEL__=0" "-D__GXX_ABI_VERSION=102" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-DWIN32" "-D__MINGW32__" "-D__MSVCRT__" "-DWINNT" "-D_X86_=1" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-D__WIN32__" "-D__MINGW32__" "-D__MSVCRT__" "-D__WINNT__" "-D_X86_=1" "-D__WIN32" "-D__WINNT" "-Asystem=winnt" "-D__NO_INLINE__" "-D__STDC_HOSTED__=1" "-Acpu=i386" "-Amachine=i386" "-Di386" "-D__i386" "-D__i386__" "-D__tune_i586__" "-D__tune_pentium__" "-D__stdcall=__attribute__((__stdcall__))" "-D__cdecl=__attribute__((__cdecl__))" "-D__fastcall=__attribute__((__fastcall__))" "-D_stdcall=__attribute__((__stdcall__))" "-D_cdecl=__attribute__((__cdecl__))" "-D_fastcall=__attribute__((__fastcall__))" "-D__declspec(x)=__attribute__((x))" ".\subtraction.c" "-quiet" "-dumpbase" "subtraction.c" "-o" "C:\Users\Ehsan\AppData\Local\Temp/ccw3caaa.s" 
-#
-#
-Child of 11120;5656
+Child of 37072;36832
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -99,10 +86,10 @@ Child of 11120;5656
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	as.exe
 	C:\project\codeImpact_analysis\
-	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\..\..\..\..\mingw32\bin\as.exe" "-o" "C:\Users\Ehsan\AppData\Local\Temp/cceQiaaa.o" "C:\Users\Ehsan\AppData\Local\Temp/ccw3caaa.s" 
+	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\..\..\..\..\mingw32\bin\as.exe" "-o" "C:\Users\Ehsan\AppData\Local\Temp/ccY5Caaa.o" "C:\Users\Ehsan\AppData\Local\Temp/cc6Njaaa.s" 
 #
 #
-Child of 11120;28400
+Child of 37072;42940
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -112,10 +99,10 @@ Child of 11120;28400
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	cc1.exe
 	C:\project\codeImpact_analysis\
-	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\cc1.exe" "-lang-c" "-I." "-iprefix" "C:\MinGW\BIN/../lib/gcc-lib/mingw32/3.2/" "-D__GNUC__=3" "-D__GNUC_MINOR__=2" "-D__GNUC_PATCHLEVEL__=0" "-D__GXX_ABI_VERSION=102" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-DWIN32" "-D__MINGW32__" "-D__MSVCRT__" "-DWINNT" "-D_X86_=1" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-D__WIN32__" "-D__MINGW32__" "-D__MSVCRT__" "-D__WINNT__" "-D_X86_=1" "-D__WIN32" "-D__WINNT" "-Asystem=winnt" "-D__NO_INLINE__" "-D__STDC_HOSTED__=1" "-Acpu=i386" "-Amachine=i386" "-Di386" "-D__i386" "-D__i386__" "-D__tune_i586__" "-D__tune_pentium__" "-D__stdcall=__attribute__((__stdcall__))" "-D__cdecl=__attribute__((__cdecl__))" "-D__fastcall=__attribute__((__fastcall__))" "-D_stdcall=__attribute__((__stdcall__))" "-D_cdecl=__attribute__((__cdecl__))" "-D_fastcall=__attribute__((__fastcall__))" "-D__declspec(x)=__attribute__((x))" ".\main.c" "-quiet" "-dumpbase" "main.c" "-o" "C:\Users\Ehsan\AppData\Local\Temp/ccw3caaa.s" 
+	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\cc1.exe" "-lang-c" "-I." "-iprefix" "C:\MinGW\BIN/../lib/gcc-lib/mingw32/3.2/" "-D__GNUC__=3" "-D__GNUC_MINOR__=2" "-D__GNUC_PATCHLEVEL__=0" "-D__GXX_ABI_VERSION=102" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-DWIN32" "-D__MINGW32__" "-D__MSVCRT__" "-DWINNT" "-D_X86_=1" "-D_WIN32" "-D__WIN32" "-D__WIN32__" "-D__WIN32__" "-D__MINGW32__" "-D__MSVCRT__" "-D__WINNT__" "-D_X86_=1" "-D__WIN32" "-D__WINNT" "-Asystem=winnt" "-D__NO_INLINE__" "-D__STDC_HOSTED__=1" "-Acpu=i386" "-Amachine=i386" "-Di386" "-D__i386" "-D__i386__" "-D__tune_i586__" "-D__tune_pentium__" "-D__stdcall=__attribute__((__stdcall__))" "-D__cdecl=__attribute__((__cdecl__))" "-D__fastcall=__attribute__((__fastcall__))" "-D_stdcall=__attribute__((__stdcall__))" "-D_cdecl=__attribute__((__cdecl__))" "-D_fastcall=__attribute__((__fastcall__))" "-D__declspec(x)=__attribute__((x))" ".\main.c" "-quiet" "-dumpbase" "main.c" "-o" "C:\Users\Ehsan\AppData\Local\Temp/cc6Njaaa.s" 
 #
 #
-Child of 11120;19880
+Child of 37072;27364
 	ENVINI:INCLUDE=C:\MinGW\include
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ENVINI:INCLUDE=C:\MinGW\include\c++\3.2
@@ -125,6 +112,6 @@ Child of 11120;19880
 	ENVINI:INCLUDE=C:\MinGW\lib\gcc-lib\mingw32\3.2\include
 	ld.exe
 	C:\project\codeImpact_analysis\
-	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\..\..\..\..\mingw32\bin\ld.exe" "-Bdynamic" "-o" "test.exe" "C:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/../../../crt2.o" "C:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/crtbegin.o" "-LC:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2" "-LC:/MinGW/BIN/../lib/gcc-lib" "-L/mingw/lib/gcc-lib/mingw32/3.2" "-LC:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/../../../../mingw32/lib" "-L/mingw/lib/gcc-lib/mingw32/3.2/../../../../mingw32/lib" "-LC:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/../../.." "-L/mingw/lib/gcc-lib/mingw32/3.2/../../.." "C:\Users\Ehsan\AppData\Local\Temp/ccSWfaaa.o" "C:\Users\Ehsan\AppData\Local\Temp/cceQiaaa.o" "C:\Users\Ehsan\AppData\Local\Temp/ccAJlaaa.o" "-lmingw32" "-lgcc" "-lmoldname" "-lmingwex" "-lmsvcrt" "-luser32" "-lkernel32" "-ladvapi32" "-lshell32" "-lmingw32" "-lgcc" "-lmoldname" "-lmingwex" "-lmsvcrt" "C:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/crtend.o" 
+	"C:\MinGW\BIN\..\lib\gcc-lib\mingw32\3.2\..\..\..\..\mingw32\bin\ld.exe" "-Bdynamic" "-o" "test.exe" "C:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/../../../crt2.o" "C:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/crtbegin.o" "-LC:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2" "-LC:/MinGW/BIN/../lib/gcc-lib" "-L/mingw/lib/gcc-lib/mingw32/3.2" "-LC:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/../../../../mingw32/lib" "-L/mingw/lib/gcc-lib/mingw32/3.2/../../../../mingw32/lib" "-LC:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/../../.." "-L/mingw/lib/gcc-lib/mingw32/3.2/../../.." "C:\Users\Ehsan\AppData\Local\Temp/cc2rtaaa.o" "C:\Users\Ehsan\AppData\Local\Temp/ccY5Caaa.o" "C:\Users\Ehsan\AppData\Local\Temp/ccUJMaaa.o" "-lmingw32" "-lgcc" "-lmoldname" "-lmingwex" "-lmsvcrt" "-luser32" "-lkernel32" "-ladvapi32" "-lshell32" "-lmingw32" "-lgcc" "-lmoldname" "-lmingwex" "-lmsvcrt" "C:/MinGW/BIN/../lib/gcc-lib/mingw32/3.2/crtend.o" 
 #
 #
